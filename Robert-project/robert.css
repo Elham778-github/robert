@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-family: HelveticaNeueW01-55Roma;
+    font-size: .94em;
+}
+.divlogo , .divmenubar{
+    float: left;
+    margin-top: -10px;
+}
+.imglogo{
+    float: left;
+    
+    margin-left: -10px;
+    cursor: pointer;
+    width: 210px;
+    height: 230px;
+    box-sizing: border-box;
+    display: inline;
+
+    
+}
+
+li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+li{
+    display: inline;
+    margin:  10px;
+   padding: 3px;  
+}
+
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.slogan {
+    text-transform: uppercase;
+    width: 210px;
+    display: blocks;
+    margin-left: -8px;
+    text-justify: auto;
+}
+a.email:link{
+    color: red;
+}
+a.email:visited{
+    color: salmon;
+}
+#phon{
+    display: block;
+}
+.contact  {
+    float: right;
+font-size: 20px;
+} 
+hr{
+    background-color: red;
+}
